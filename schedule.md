@@ -262,7 +262,11 @@ No class, enjoy the break!</td>
 <tr>
 <td markdown="span">
 20 <br/> Fri, Jan 13 2023</td>
-<td markdown="span">
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf"> Chapter 28 of OSTEP </a> </li>
+<li> <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf"> Chapter 30 of OSTEP </a> </li>
+</ul>{:/}
 </td>
 <td markdown="span" style="text-align:center">
 <a href="{{ site.baseurl }}/notes/session19"> Concurrency: Mutex & Condition Variables </a></td>
@@ -270,13 +274,16 @@ No class, enjoy the break!</td>
 </td>
 </tr>
 <tr>
-<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="5" markdown="span" style="font-size:xx-large;"><a name="w7">7</a></td>
+<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="6" markdown="span" style="font-size:xx-large;"><a name="w7">7</a></td>
 <td markdown="span">
 21 <br/> Mon, Jan 16 2023</td>
-<td markdown="span">
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf"> Chapter 30 of OSTEP </a> </li>
+</ul>{:/}
 </td>
 <td markdown="span" style="text-align:center">
-<a href="{{ site.baseurl }}/notes/session20"> Concurrency: Producer-Consumer </a></td>
+<a href="{{ site.baseurl }}/notes/session20"> Concurrency: More Condition Variables </a></td>
 <td markdown="span">
 </td>
 </tr>
@@ -285,10 +292,13 @@ No class, enjoy the break!</td>
 <tr>
 <td markdown="span">
 22 <br/> Tue, Jan 17 2023</td>
-<td markdown="span">
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem"> Wiki Page for Prod/Cons Problem </a> </li>
+</ul>{:/}
 </td>
 <td markdown="span" style="text-align:center">
-<a href="{{ site.baseurl }}/notes/session21"> Concurrency: Readers-Writers </a></td>
+<a href="{{ site.baseurl }}/notes/session21"> Concurrency: Producer-Consumer Problem </a></td>
 <td markdown="span">
 </td>
 </tr>
@@ -298,57 +308,104 @@ No class, enjoy the break!</td>
 <td markdown="span">
 </td>
 <td markdown="span" style="text-align:center">
-<a href="{{ site.baseurl }}/notes/session22"> Concurrency: Deadlocks </a></td>
+<a href="{{ site.baseurl }}/notes/session22"> Concurrency: Readers/Writers Problem </a></td>
 <td markdown="span">
 </td>
 </tr>
+<tr>
+<td markdown="span" colspan="4"> [Condition Variables Basics]({{ site.baseurl }}/labs/lab07) DUE Thu, Jan 19 2023 23:59 [Submission box]({{ site.gradescope_url }}) <font color="#aaa"> grader: @TBA </font> </td></tr>
 <tr>
 <td markdown="span">
 24 <br/> Fri, Jan 20 2023</td>
 <td markdown="span">
 </td>
 <td markdown="span" style="text-align:center">
-<a href="{{ site.baseurl }}/notes/session23"> Concurrency: RCU </a></td>
+<a href="{{ site.baseurl }}/notes/session23"> Concurrency: Deadlocks </a></td>
 <td markdown="span">
 </td>
 </tr>
 <tr>
-<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="4" markdown="span" style="font-size:xx-large;"><a name="w8">8</a></td>
+<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="5" markdown="span" style="font-size:xx-large;"><a name="w8">8</a></td>
 <td markdown="span">
 25 <br/> Mon, Jan 23 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://en.wikipedia.org/wiki/Sleeping_barber_problem"> The Sleeping Barber Problem </a> </li>
+</ul>{:/}
+</td>
+<td markdown="span" style="text-align:center">
+<a href="{{ site.baseurl }}/notes/session24"> Concurrency: More Exercises </a></td>
+<td markdown="span">
+</td>
 </tr>
+<tr>
+<td markdown="span" colspan="4"> [[Challenge] Condition Variables II]({{ site.baseurl }}/labs/lab08) DUE Mon, Jan 23 2023 23:59 [Submission box]({{ site.gradescope_url }}) <font color="#aaa"> grader: @TBA </font> </td></tr>
 <tr>
 <td markdown="span">
 26 <br/> Tue, Jan 24 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span">
+</td>
+<td markdown="span" style="text-align:center">
+<a href="{{ site.baseurl }}/notes/session25"> Exam 2 Review </a></td>
+<td markdown="span">
+</td>
 </tr>
 <tr>
 <td markdown="span">
 27 <br/> Thu, Jan 26 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span">
+</td>
+<td markdown="span" style="text-align:center">
+Exam 2, No Class</td>
+<td markdown="span">
+</td>
 </tr>
 <tr>
 <td markdown="span">
 28 <br/> Fri, Jan 27 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span">
+</td>
+<td markdown="span" style="text-align:center">
+Exam 2 Walkthrough</td>
+<td markdown="span">
+</td>
 </tr>
 <tr>
-<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="4" markdown="span" style="font-size:xx-large;"><a name="w9">9</a></td>
+<tr><td markdown="span" colspan="5" style="padding-top:2px;padding-bottom:2px;background-color:#167F92;color:#FFF;"></td></tr><td rowspan="6" markdown="span" style="font-size:xx-large;"><a name="w9">9</a></td>
 <td markdown="span">
 29 <br/> Mon, Jan 30 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf"> Chapter 7 of OSTEP </a> </li>
+</ul>{:/}
+</td>
+<td markdown="span" style="text-align:center">
+<a href="{{ site.baseurl }}/notes/session29"> CPU Scheduling I </a></td>
+<td markdown="span">
+</td>
 </tr>
+<tr>
+<td markdown="span" colspan="4"> [Userspace Threads I]({{ site.baseurl }}/labs/lab09) DUE Mon, Jan 30 2023 23:59 [Submission box]({{ site.gradescope_url }}) <font color="#aaa"> grader: @TBA </font> </td></tr>
 <tr>
 <td markdown="span">
 30 <br/> Tue, Jan 31 2023</td>
-<td markdown="span" colspan="3">N/A</td>
+<td markdown="span" style="text-align:left;">
+{::nomarkdown}<ul style="margin:0;padding:.5rem">
+<li> <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf"> Chapter 8 of OSTEP </a> </li>
+</ul>{:/}
+</td>
+<td markdown="span" style="text-align:center">
+<a href="{{ site.baseurl }}/notes/session30"> CPU Scheduling II </a></td>
+<td markdown="span">
+</td>
 </tr>
 <tr>
 <td markdown="span">
 31 <br/> Thu, Feb 02 2023</td>
 <td markdown="span" colspan="3">N/A</td>
 </tr>
+<tr>
+<td markdown="span" colspan="4"> [[Challenge] Userspace Threads II]({{ site.baseurl }}/labs/lab10) DUE Thu, Feb 02 2023 23:59 [Submission box]({{ site.gradescope_url }}) <font color="#aaa"> grader: @TBA </font> </td></tr>
 <tr>
 <td markdown="span">
 32 <br/> Fri, Feb 03 2023</td>
